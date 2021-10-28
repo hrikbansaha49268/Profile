@@ -7,7 +7,7 @@ app = Flask(__name__)
 msg = EmailMessage()
 
 
-@app.route("https://64-bit.netlify.app/")
+@app.route("/")
 def home():
     return render_template("index.html")
 
